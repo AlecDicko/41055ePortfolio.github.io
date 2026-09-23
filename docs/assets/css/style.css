@@ -380,6 +380,34 @@ a:hover, a:focus-visible { color: var(--copper-bright); text-decoration-color: v
 
 .doc-card .sign-off p { margin: 0.2em 0; }
 
+.doc-card ul {
+  margin: -0.4em 0 1.6em 0;
+  padding-left: 1.2em;
+}
+
+.doc-card li {
+  margin-bottom: 0.4em;
+  max-width: 66ch;
+}
+
+.doc-card .role-meta {
+  color: #6b6354;
+  font-size: 0.92rem;
+  margin: -0.4em 0 0.8em 0;
+}
+
+.doc-card .cv-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.15em;
+}
+
+.doc-card .cv-contact {
+  color: #6b6354;
+  margin-bottom: 1.8em;
+}
+.doc-card .cv-contact a { color: #8a5a20; }
+
 /* ---------- Footer ---------- */
 
 .site-footer {
